@@ -2,7 +2,7 @@
 Name:   Gil
 Date:   January 23, 2024
 
-Want to commit this note. HERE?
+change again
 
 Need a function 
         System.out.print("__: ");
@@ -41,5 +41,5 @@ public class TravelCostCalculator
             System.out.printf("Time:    $%10.2f\n", timeCost);
             System.out.printf("Total:   $%10.2f\n", totalCost);
         }      
-    
+    }
 }
