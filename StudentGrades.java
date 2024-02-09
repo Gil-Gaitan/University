@@ -9,34 +9,34 @@ import java.util.Scanner;
 public class StudentGrades {
     public static void main(String[] args)
     {
-        Scanner buf = new Scanner(System.in);
-        int num, i;
-        String name, response;
-        int age;
-        float gpa;
-        
-       //System.out.printf("How many students?: ");
-        //num = buf.nextInt;
-        //buf.nextLine(); //Read Enter Key
-        //i = 0;
-
-        do
-        {
-            System.out.printf("Enter student name: ");
-            name = buf.nextLine(); //Read Enter Key
+        try (Scanner buf = new Scanner(System.in)) {
+            //int i = 0;
+            //int num
+            String name, response;
+            int age;
+            float gpa;
             
-            System.out.printf("Enter student age: ");
-            name = buf.nextLine();
+      System.out.printf("How many students?: ");
+            //num = buf.nextInt();
+            buf.nextLine(); //Read Enter Key;
 
-            System.out.printf("Enter student GPA: ");
-           gpa = buf.nextFloat();
+            do
+            {
+                System.out.printf("Enter student name: ");
+                name = buf.nextLine(); //Read Enter Key
+                
+                System.out.printf("Enter student age: ");
+                age = buf.nextInt();
 
-            System.err.printf("%15s %10d %12.2f\n", name, age, gpa);
+                System.out.printf("Enter student GPA: ");
+                gpa = buf.nextFloat();
 
-            System.out.printf("Done? ");
-            response = buf.nextLine;
-            i++;
+                System.err.printf("%15s %10d %12.2f\n", name, age, gpa);
 
-        }while (!response.equalsIgnoreCase("Done"));
+                System.out.printf("Done? ");
+                response = buf.nextLine();
+
+            }while (!response.equalsIgnoreCase("Done"));
+        }
     }
 }

@@ -1,0 +1,3 @@
+Order Amount Total Charge Pepperoni Cheese Hawaiian Total Pizza Breadsticks
+************ ************ ********* ****** ******** *********** ***********
+1470801            926.03        30     25          12          97          30
