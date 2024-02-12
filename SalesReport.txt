@@ -1,3 +1,10 @@
-Order Amount Total Charge Pepperoni Cheese Hawaiian Total Pizza Breadsticks
+Order Number Total Charge Pepperoni Cheese Hawaiian Total Pizza Breadsticks
 ************ ************ ********* ****** ******** *********** ***********
-1470801            926.03        30     25          12          97          30
+1470801            171.82         6      4        2          18           6
+
+Item             Qty  Tot Rev
+**************** **** *******
+Pepperoni Pizzas 6    $ 71.94
+Pepperoni Pizzas 4    $ 35.96
+Hawaiian Pizzas  2    $ 21.98
+Breadsticks      6    $ 41.94

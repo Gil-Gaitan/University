@@ -1,0 +1,6 @@
+System.out.printf("a string can go here. \n%-10%-10s", "Num", variable, "Population\n");
+
+
+System.out.printf("\d%-10f%-10c\n", num1 * 3.5 , num2++, 40); ASCII so "("
+
+%-,5
